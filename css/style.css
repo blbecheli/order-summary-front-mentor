@@ -1,0 +1,120 @@
+body{
+    font-family: 'Red Hat Display',sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;    
+    font-size: 16px;
+}
+
+main{
+    width: 33%;
+    height: 90%;
+    margin: 2% 33% 2% 33%;    
+    background-color: white;
+    border-radius: 10px;    
+}
+
+@media screen and (max-width: 600px){
+    main{
+        margin: 5%;
+        width: 90%;
+    }
+}
+
+.imagem__imagem{
+    width: 100%;   
+    border-top-right-radius: 10px; 
+    border-top-left-radius: 10px;
+}
+
+section{
+    margin-top: 2rem;
+}
+
+.order__titulo{
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: hsl(223, 47%, 23%);
+}
+
+.order__descricao{
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: hsl(224, 23%, 55%);
+}
+
+.preco{
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    background-color: hsl(225, 100%, 98%);
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    padding: 3% 0% 3% 3%;
+    width: 80%;
+}
+
+.preco__valor{
+    margin-left: 4%;
+    margin-top: 5%;      
+}
+
+.preco__annual{    
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.preco__change{    
+    padding-top: 20%;
+    padding-left: 20%;
+}
+
+.preco__change-link{    
+    font-weight: 700;
+}
+
+.preco__change-link:hover{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+.botao{
+    margin-top: 2rem;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0px 5px 5px grey;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 5px;
+    height: 2rem;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.botao:hover{
+    background-color: hsl(224, 23%, 55%);
+}
+
+.botao__botao{    
+    font-size: 16px;
+    text-decoration: none;    
+    color: white;
+}
+
+.cancelar{
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cancelar__cancelar{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 800;
+}
